@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Nuclear Map</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5.easycam@1.0.1/p5.easycam.min.js"></script>
+
+</head>
+ <body>
+  <div id="title">NUCLEAR EXPLOSIONS</div>
+
+  <!-- Slider 时间轴 -->
+  <div id="slider-container">
+    <input type="range" id="yearSlider" min="1945" max="1998" step="1" value="1998">
+    <div id="yearMarks">
+      <span>1945</span>
+      <span>1950</span>
+      <span>1960</span>
+      <span>1970</span>
+      <span>1980</span>
+      <span>1990</span>
+      <span>1998</span>
+    </div>
+  </div>
+<!--
+ <div id="note">* The radius indicates the range of yield.</div>
+ -->
+<div id="legend">
+  <div class="legend-item underground">
+    <div class="blue"></div>
+    <span>Underground Explosions</span>
+  </div>
+  <div class="legend-item atmospheric">
+    <div class="green"></div>
+    <span>Atmospheric Explosions</span>
+  </div>
+</div>
+    <script src="sketch1.js"></script>
+  </body>
+</html>
+
