@@ -9,3 +9,11 @@ Empty cells in the "name" and "purpose" columns were replaced with "*UNKNOWN".
 Subdivision of the column"type":
 "ATMOSPH": ATMOSPH,BALLOON,AIRDROP,ROCKET,TOWER,BARGE,WATERSUR,SURFACE,CRATER,UW,SHIP,SPACE,WATER SU
 "UG":UG,SHAFT,TUNNEL,GALLERY,MINE,SHAFT/GR,SHAFT/LG
+
+***general visualizzation:
+in graphic--time, coordinates, yield, regions
+in text--types, countries, purposes, names
+
+***detail page:
+mb, ms, depth(most values for these three parameters are 0), precise launch time("origin_t"), id, sourse
+(personally i thinks they are meaningless)
