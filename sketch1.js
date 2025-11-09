@@ -26,11 +26,11 @@ function setup() {
 
   // 转换经纬度为 3D 坐标
   for (let i = 0; i < data.getRowCount(); i++) {
-    let lon = float(data.getString(i, "longitude"));
-    let lat = float(data.getString(i, "latitude"));
-    let yieldValue = float(data.getString(i, "average_yield"));
+    let lon = data.getString(i, "longitude");
+    let lat = data.getString(i, "latitude");
+    let yieldValue = data.getString(i, "average_yield");
     let type = data.getString(i, "type");
-    let year = int(data.getString(i, "year"));
+    let year = data.getString(i, "year");
 
     let phi = radians(90 - lat);
     let theta = radians(lon + 180);
